@@ -1,0 +1,156 @@
+h1{
+    display: inline;
+}
+.titulo{
+    margin-left: 500px;
+    color: #1F9094;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body{
+    background-color: #FAC18F;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    border: solid #E6C3A3;
+    padding: 25px;
+    background-color: #E6C3A3;
+}
+.ropa{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px;
+grid-template-rows: 640px 640px 640px 640px;
+grid-column-gap: 400px;
+}
+
+
+
+
+.inicio{
+    font-size: 30px;
+}
+.lista{
+    list-style: none;
+    font-size: 0;
+}
+
+.productos{
+    display: inline-block;
+    position: relative;
+   font-size: 30px
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+
+ }
+ ul ul li {
+    display: block;
+ }
+
+ ul li:hover ul  {
+    display:block;
+ }
+ 
+nav{
+    background-color: #E08F5C;
+    padding: 30px;
+    position: sticky
+}
+
+li{
+    display: inline;
+}
+
+
+.pedidos{
+  font-size: 30px;
+}
+.nuestroig{
+    margin-left: 200px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buscador{
+    background-color: #E08F5C;
+}
+
+.ropa{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-column-gap: 200px;
+    grid-row-gap: 250px;
+}
+.ropaHijo{
+    width: 300px;
+    height: 300px;
+}
+.fb{
+    width: 50px; height: 50px;
+}
+.ig{
+    width: 50px; height: 50px;
+}
+footer{
+    background-color:#E6C3A3 ;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 768px) {
+    .inicio, .productos, .pedidos{
+        font-size: 20px;
+        
+    }
+    header{
+        margin-right: 118px;
+        margin-left: 80px;
+    }
+    nav{
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .buscador{
+        display: none;
+    }
+    .titulo{
+        margin-left: 0;
+    }
+    .lista{
+        display: flex;
+        justify-content: space-around;
+    }
+    .ropa{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-column-gap: 210px;
+        grid-row-gap: 200px;
+        margin-left: 80px;
+    }
+    .subRopa{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 100px 100px ;
+        grid-column-gap: 210px;
+        grid-row-gap: 200px;
+        margin-left: 80px;
+    }
+    .ropaHijo{
+        height: 240px;
+        width: 240px;
+    }
+    .lista{ 
+        font-size: 10px;
+
+    }
+    footer{
+        margin-right: 100px;
+    }
+
+}
